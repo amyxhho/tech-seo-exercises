@@ -1,0 +1,78 @@
+  body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  font-size: 24px;
+  text-align: center;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: green; }
+  100% { color: blue; }
+}
+
+#random-number {
+  animation: color-change 5s infinite;
+}
+header {
+  background-color: navy;
+  padding: 10px;
+}
+
+nav {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+main {
+  padding: 10px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+section {
+  margin: 10px 0;
+}
+
+#header-paragraph {
+  text-align: center;
+}
+
+#product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#product-list li {
+  background-color: lightgrey;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer; /* changes the cursor to a hand when hovering over the list item */
+  display: block; /* makes the entire list item clickable */
+}
+
+#product-list li:hover {
+  background-color: darkgrey; /* changes the background color when hovering over the list item */
+}
